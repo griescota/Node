@@ -1,0 +1,12 @@
+
+    <header>
+        <h1>Progreso de Entrenamiento</h1>
+    </header>
+    <main>
+
+        <div class="progress-container" >
+            <progress [value]="iterador" max="100"></progress>
+            <p>Nivel de progreso: {{ iterador }}%</p>
+        </div>
+        <button id="volver" (click)="irAtras()">Volver</button>
+    </main>

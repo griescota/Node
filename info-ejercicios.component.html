@@ -1,0 +1,16 @@
+
+<div class="ejercicio-info">
+    <h2>{{ ejercicioNombre }}</h2>
+    <div class="imagen-container">
+      <img [src]="imagenUrl" alt="Imagen del ejercicio">
+    </div>
+    <p>{{ informacionEjercicio }}</p>
+  </div>
+  
+  <div class="counter-container">
+    <button class="boton-realizado" (click)="incrementarContador()">Realizado</button>
+  </div>
+  
+  <div id="botones-container">
+    <button class="volver" (click)="volver()">Volver</button>
+  </div>
